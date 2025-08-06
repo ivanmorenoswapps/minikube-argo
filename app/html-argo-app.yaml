@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/ivanmorenoswapps/page-html-qa-automation
     targetRevision: HEAD
-    path: html-site
+    path: html-site             # Esta es la carpeta que contiene el Chart.yaml
     helm:
       valueFiles:
         - values.yaml
